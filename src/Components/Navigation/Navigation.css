@@ -25,7 +25,7 @@
   
   .navbar-links li a {
     text-decoration: none;
-    color: blue;
+    color: white;
     font-weight: bold;
   }
   
@@ -40,7 +40,7 @@
   .dropdown-btn {
     display: inline-block;
     text-decoration: none;
-    color: blue;
+    color: white;
     font-weight: bold;
     padding: 1rem;
     cursor: pointer;

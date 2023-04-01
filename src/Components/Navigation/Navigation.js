@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import Footer from './Footer';
 import './Navigation.css'; // import the CSS file
 
 const Navigation = () => {
   const navigate = useNavigate();
   return (
+    <>
     <nav>
       <div className="navbar-container">
         <h1 onClick={() => navigate("/")} className="navbar-brand">E-MART</h1>
@@ -17,7 +19,10 @@ const Navigation = () => {
          
         </ul>
       </div>
+
     </nav>
+    <Footer/>
+    </>
   );
 };
 
