@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Footer from './Footer';
+import ImageChange from './ImageChange';
 import './Navigation.css'; // import the CSS file
 
 const Navigation = () => {
@@ -21,6 +22,7 @@ const Navigation = () => {
       </div>
 
     </nav>
+    <ImageChange/>
     <Footer/>
     </>
   );
