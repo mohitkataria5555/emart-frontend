@@ -36,7 +36,7 @@ const Login = () => {
             navigate("/");
             alert("Logged in Successfully");
           }
-        //   alert("Invalid email or password. Please try again.");
+        // alert("Invalid email or password. Please try again.");
         });
       };
     

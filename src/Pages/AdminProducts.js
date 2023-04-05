@@ -195,17 +195,8 @@ idInputRef="";
                   ADD PRODUCT
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="projectclass" onClick={update}>
-                  UPDATE PRODUCT
-                </Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link className="projectclass" onClick={del}>
-                  {" "}
-                  DELETE PRODUCT
-                </Nav.Link>
-              </Nav.Item>
+              
+              
             </Nav>
           </Card.Header>
           <Card.Body

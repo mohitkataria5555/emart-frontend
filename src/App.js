@@ -28,6 +28,7 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/adminLogin" element={<AdminLogin/>}></Route>
           <Route path="/adminProduct" element={<AdminProducts/>}></Route>
+          
         </Routes>
       </BrowserRouter>
     </div>

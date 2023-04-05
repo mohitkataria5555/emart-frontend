@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Assets/css/ProductX.css'
 
+import { Link } from 'react-router-dom'
+
 const ProductX = () => {
     
   return (
@@ -30,8 +32,7 @@ const ProductX = () => {
                             src="https://images-eu.ssl-images-Emart.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg" />
                         <p>Bags & language</p>
                     </div>
-                </div>
-                <button class="card-product-btn">see more</button>
+                </div> <Link class="card-product-btn" to="/" >see more</Link>
             </div>
             <div class="card-product">
                 <h2>Make Your Home with Emart</h2>
@@ -57,7 +58,7 @@ const ProductX = () => {
                         <p>Explore all</p>
                     </div>
                 </div>
-                <button class="card-product-btn">Visit our furniture store</button>
+                <Link class="card-product-btn" to="/" >see more</Link>
             </div>
             <div class="card-product">
                 <h2> Get top Fashion Deals on Emart</h2>
@@ -83,7 +84,7 @@ const ProductX = () => {
                         <p>Fashion</p>
                     </div>
                 </div>
-                <button class="card-product-btn">see more</button>
+                <Link class="card-product-btn" to="/" >see more</Link>
             </div>
            
         </div>
@@ -95,9 +96,9 @@ const ProductX = () => {
         </div>
 
     
-    <section class="today_deals_container">
+    {/* <section class="today_deals_container">
         <div class="today_deals_heading">
-            <h1>Today's Deals</h1>
+            <h1>Products</h1>
             <p><a href="#">See all deals</a></p>
         </div>
 
@@ -112,53 +113,12 @@ const ProductX = () => {
             </div>
 
             <div class="today_deals_product_list">
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-Emart.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-Emart.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-Emart.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-Emart.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
-
-                <div class="today_deals_product_item">
-                    <img src="https://m.media-Emart.com/images/I/411mbYGYIdL._AC_SY200_.jpg"/>
-                    <div class="discount_Contaienr">
-                        <a href="#">Up to 52% off</a>
-                        <a href="#">Deal of the day</a>
-                    </div>
-                    <p>adidas and Campus Footwear</p>
-                </div>
+               
+         
+               
             </div>
         </div>
-    </section>
+    </section> */}
 
     </main>
     </div>
