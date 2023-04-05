@@ -23,8 +23,8 @@ const ProductHeader = () => {
         <li>
         <a class="nav-link" href="#" onClick={() => navigate("/login")}>Profile</a>
         </li>
-       <a href='/mycart'>
-       <img class="cart-logo"src={logo}/>
+       <a href='/cart'>
+       <img class="cart-logo"src={logo}   onClick={() => navigate("/cart")}/>
        </a>
       
        

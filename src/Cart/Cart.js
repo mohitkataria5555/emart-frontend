@@ -1,9 +1,10 @@
 import React from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import ProductNavigation from "../Navigation/ProductNavigation";
+
 import Table from "react-bootstrap/Table";
 import { useNavigate } from "react-router-dom";
+import ProductHeader from "../Product/ProductHeader";
 
 
 export default function Cart() {
@@ -54,7 +55,7 @@ export default function Cart() {
 
   return (
     <>
-      <ProductNavigation />
+    <ProductHeader/>
       <h1 id="cartid"> YOUR CART</h1>
       <Table striped bordered hover className="tablecomponent">
         <tr className="tabledata">
